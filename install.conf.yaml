@@ -3,14 +3,16 @@
       relink: true
 - clean:
   - '~'
-- create: []
+- create:
+    - ~/.oh-my-zsh-custom/plugins
+    - ~/.oh-my-zsh-custom/themes
 - link:
     ~/.zshrc:
       path: zsh/zshrc
       force: true
     ~/.oh-my-zsh: zsh/ohmyzsh
-    ~/.oh-my-zsh-custom:
-      path: zsh/custom
+    ~/.oh-my-zsh-custom/themes/powerlevel10k: zsh/custom/themes/powerlevel10k
+    ~/.oh-my-zsh-custom/p10k.zsh: zsh/custom/p10k.zsh
 - shell:
   - command: git submodule update --init --recursive
     description: Installing submodules
