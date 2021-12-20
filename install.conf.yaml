@@ -3,6 +3,7 @@
       relink: true
 - clean:
   - '~'
+  - '~/.oh-my-zsh-custom'
 - create:
     - ~/.oh-my-zsh-custom/plugins
     - ~/.oh-my-zsh-custom/themes
@@ -14,6 +15,7 @@
     ~/.oh-my-zsh-custom/themes/powerlevel10k: zsh/custom/themes/powerlevel10k
     ~/.oh-my-zsh-custom/p10k.zsh: zsh/custom/p10k.zsh
     ~/.oh-my-zsh-custom/editor.zsh: zsh/custom/editor.zsh
+    ~/.oh-my-zsh-custom/path.zsh: zsh/custom/path.zsh
 - shell:
   - command: git submodule update --init --recursive --depth 1
     description: Installing submodules
