@@ -3,7 +3,7 @@
 ## Recommended packages
 
 ```
-sudo apt install git zsh jq python3 htop build-essential curl zip unzip
+sudo apt install git zsh jq python3 python3-venv htop build-essential curl zip unzip
 # WSL only
 sudo apt install wslu
 ```
