@@ -16,6 +16,7 @@
     ~/.oh-my-zsh-custom/p10k.zsh: zsh/custom/p10k.zsh
     ~/.oh-my-zsh-custom/editor.zsh: zsh/custom/editor.zsh
     ~/.oh-my-zsh-custom/path.zsh: zsh/custom/path.zsh
+    ~/.oh-my-zsh-custom/nvm.zsh: zsh/custom/nvm.zsh
 - shell:
   - command: git submodule update --init --recursive --depth 1
     description: Installing submodules
