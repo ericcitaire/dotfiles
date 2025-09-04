@@ -11,3 +11,10 @@ ZSH_CUSTOM=$HOME/.oh-my-zsh-custom
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+
+# The following lines were added by compinstall
+zstyle :compinstall filename "$HOME/.zshrc"
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
