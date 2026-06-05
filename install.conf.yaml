@@ -18,6 +18,7 @@
     ~/.oh-my-zsh-custom/path.zsh: zsh/custom/path.zsh
     ~/.oh-my-zsh-custom/nvm.zsh: zsh/custom/nvm.zsh
     ~/.oh-my-zsh/completions: zsh/completions
+    ~/.config/nvim: nvim
 - shell:
   - command: git submodule update --init --recursive --depth 1
     description: Installing submodules
