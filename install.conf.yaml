@@ -25,3 +25,7 @@
     description: Installing submodules
   - command: $HOME/.oh-my-zsh-custom/themes/powerlevel10k/gitstatus/install
     description: Installing gitstatus
+  - command: curl -sS https://webi.sh/webi | sh
+    description: Installing Webi
+  - command: webi k9s kubectx kubens terraform jq yq delta rg prettier
+    description: Installing tools
