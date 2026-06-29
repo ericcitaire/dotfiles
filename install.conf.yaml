@@ -27,5 +27,7 @@
     description: Installing gitstatus
   - command: curl -sS https://webi.sh/webi | sh
     description: Installing Webi
-  - command: webi k9s kubectx kubens terraform jq yq delta rg prettier
+  - command: webi delta fzf jq k9s kubectx kubens rg terraform yq
     description: Installing tools
+    stdout: true
+    stderr: true
